@@ -21,7 +21,7 @@
 
 菜单栏：Window - Preferences - Maven - Installations - Add，添加Maven目录
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/13.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/13.png?raw=true)
 
 ### 2.
 
@@ -31,18 +31,18 @@
 
 Update Settings - Apply
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/14.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/14.png?raw=true)
 
 ---
 ## 四、 新建Tomcat服务器
 
 菜单栏：Window - Preferences - Server - Environment - Add - 添加Tomcat服务器
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/11.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/11.png?raw=true)
 
 设置Tomcat目录
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/12.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/12.png?raw=true)
 
 ---
 ## 五、 新建Maven工程
@@ -51,7 +51,7 @@ Update Settings - Apply
 
 菜单栏：File - New - Other - Maven - Maven Project - Next
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/01.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/01.png?raw=true)
 
 ### 2.
 
@@ -61,13 +61,13 @@ Update Settings - Apply
 
 "Select an Archetype"页，选择webapp，next
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/02.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/02.png?raw=true)
 
 ### 4.
 
 输入Group Id企业名和Artifact Id项目名，finish
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/03.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/03.png?raw=true)
 
 ---
 ## 六、 修改工程
@@ -84,13 +84,13 @@ Update Settings - Apply
 </dependency>
 ```
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/04.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/04.png?raw=true)
 
 如果不行，工程右键 - Build Path - Configure Build Path
 
 右边顶部导航栏选择Libraries - 右边Add Library - Server Runtime - 选择Tomcat服务器 - Apply
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/05.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/05.png?raw=true)
 
 ### 2.
 
@@ -100,21 +100,21 @@ Java Resources文件夹下应该有这四个文件夹：
 - scr/test/java
 - scr/test/resources
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/06.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/06.png?raw=true)
 
 如果有缺失，Java Resources右键 - New - Source Folder，按照相对路径创建文件夹
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/07.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/07.png?raw=true)
 
 工程右键 - Build Path - Configure Build Path
 
 右边顶部导航栏选择Source
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/08.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/08.png?raw=true)
 
 上面四个文件夹，两个main的Output folder是target/classes，两个test的Output folder是target/test-classes，如果不对，点击对应项，Edit里修改
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/09.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/09.png?raw=true)
 
 ### 3.
 
@@ -129,4 +129,4 @@ pom.xml文件中按需添加工程所需jar包的依赖，资源均来自[Maven�
 
 工程右键 - Run As - Run on Server
 
-![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/10.jpg?raw=true)
+![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/10.png?raw=true)
