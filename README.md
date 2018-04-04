@@ -74,6 +74,8 @@ Update Settings - Apply
 
 ### 1.
 
+也可参考[Java Web工程中index.jsp报"javax.servlet.http.HttpServlet"错误的解决方案 ](https://blog.csdn.net/zy13608089849/article/details/79814219)解决。
+
 此时工程有报错感叹号，定位在index.jsp文件，出现这个错误是因为缺少Servlet包，前往Maven仓库搜索[Servlet](http://mvnrepository.com/artifact/javax.servlet/servlet-api)，然后在pom.xml文件中添加依赖，参考：
 ```
 <dependency>
@@ -95,6 +97,7 @@ Update Settings - Apply
 ### 2.
 
 Java Resources文件夹下应该有这四个文件夹：
+
 - scr/main/java
 - scr/main/resources
 - scr/test/java
@@ -103,6 +106,10 @@ Java Resources文件夹下应该有这四个文件夹：
 ![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/06.png?raw=true)
 
 如果有缺失，Java Resources右键 - New - Source Folder，按照相对路径创建文件夹
+
+如果创建时提示已存在无法创建，就工程右键 - Refresh，看有没有出现
+
+如果还是没有，就去工程目录下手动建
 
 ![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/07.png?raw=true)
 
@@ -130,3 +137,5 @@ pom.xml文件中按需添加工程所需jar包的依赖，资源均来自[Maven�
 工程右键 - Run As - Run on Server
 
 ![](https://github.com/frogfans/MavenBuildJavaWeb-Teaching/blob/master/image/10.png?raw=true)
+
+
