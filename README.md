@@ -77,7 +77,7 @@ Update Settings - Apply
 也可参考[Java Web工程中index.jsp报"javax.servlet.http.HttpServlet"错误的解决方案 ](https://blog.csdn.net/zy13608089849/article/details/79814219)解决。
 
 此时工程有报错感叹号，定位在index.jsp文件，出现这个错误是因为缺少Servlet包，前往Maven仓库搜索[Servlet](http://mvnrepository.com/artifact/javax.servlet/servlet-api)，然后在pom.xml文件中添加依赖，参考：
-```
+```xml
 <dependency>
 	<groupId>javax.servlet</groupId>
 	<artifactId>servlet-api</artifactId>
